@@ -11,8 +11,8 @@
 
 [[ -z $DEBUG ]] || set -x 
 
-CLIENT_URL="https://github.com/VictorCovalski/nostalrius-installer/raw/master/nostalrius.zip"
-MAP_URL="https://github.com/VictorCovalski/nostalrius-installer/raw/master/minimap.otmm"
+CLIENT_URL="https://github.com/juniortro/nostalrius-installer/blob/master/nostalrius.zip"
+MAP_URL="https://github.com/juniortro/nostalrius-installer/blob/master/minimap.otmm"
 INSTALL_DIR="${HOME}/.nostalrius"
 NOSTALRIUS_CONFIG_PATH=$( echo -n "${HOME}/.wine/drive_c/users/${USER}/Application Data/OTClientV8/nostalrius_74/")
 
